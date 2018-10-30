@@ -12,6 +12,33 @@
 		D29CB9232187739A00B9E617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9212187739A00B9E617 /* Main.storyboard */; };
 		D29CB9252187739B00B9E617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9242187739B00B9E617 /* Assets.xcassets */; };
 		D29CB9282187739B00B9E617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9262187739B00B9E617 /* LaunchScreen.storyboard */; };
+		D29CB9482187789A00B9E617 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9312187789800B9E617 /* Icon-App-20x20@1x.png */; };
+		D29CB9492187789A00B9E617 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9322187789800B9E617 /* Icon-App-40x40@3x.png */; };
+		D29CB94A2187789A00B9E617 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9332187789800B9E617 /* Icon-App-20x20@2x.png */; };
+		D29CB94B2187789A00B9E617 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9342187789800B9E617 /* Icon-App-76x76@2x.png */; };
+		D29CB94C2187789A00B9E617 /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9352187789800B9E617 /* Icon-App-76x76@3x.png */; };
+		D29CB94D2187789A00B9E617 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9362187789800B9E617 /* Icon-App-20x20@3x.png */; };
+		D29CB94E2187789A00B9E617 /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9372187789800B9E617 /* Icon-Small-50x50@2x.png */; };
+		D29CB94F2187789A00B9E617 /* Icon-App-72x72@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9382187789900B9E617 /* Icon-App-72x72@1x.png */; };
+		D29CB9502187789A00B9E617 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9392187789900B9E617 /* Icon-App-60x60@1x.png */; };
+		D29CB9512187789A00B9E617 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB93A2187789900B9E617 /* ItunesArtwork@2x.png */; };
+		D29CB9522187789A00B9E617 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB93B2187789900B9E617 /* Icon-App-40x40@1x.png */; };
+		D29CB9532187789A00B9E617 /* Icon-Small-50x50@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB93C2187789900B9E617 /* Icon-Small-50x50@1x.png */; };
+		D29CB9542187789A00B9E617 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB93D2187789900B9E617 /* Icon-App-40x40@2x.png */; };
+		D29CB9552187789A00B9E617 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB93E2187789900B9E617 /* Icon-App-76x76@1x.png */; };
+		D29CB9562187789A00B9E617 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB93F2187789900B9E617 /* Icon-App-29x29@1x.png */; };
+		D29CB9572187789A00B9E617 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9402187789900B9E617 /* Icon-App-60x60@2x.png */; };
+		D29CB9582187789A00B9E617 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9412187789900B9E617 /* Icon-App-29x29@3x.png */; };
+		D29CB9592187789A00B9E617 /* Icon-App-72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9422187789900B9E617 /* Icon-App-72x72@2x.png */; };
+		D29CB95A2187789A00B9E617 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9432187789A00B9E617 /* Icon-App-60x60@3x.png */; };
+		D29CB95B2187789A00B9E617 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9442187789A00B9E617 /* Icon-App-83.5x83.5@2x.png */; };
+		D29CB95C2187789A00B9E617 /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9452187789A00B9E617 /* Icon-App-57x57@1x.png */; };
+		D29CB95D2187789A00B9E617 /* Icon-App-57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9462187789A00B9E617 /* Icon-App-57x57@2x.png */; };
+		D29CB95E2187789A00B9E617 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9472187789A00B9E617 /* Icon-App-29x29@2x.png */; };
+		D29CB96021877C2200B9E617 /* hat.png in Resources */ = {isa = PBXBuildFile; fileRef = D29CB95F21877C2200B9E617 /* hat.png */; };
+		D29CB96421877CC400B9E617 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29CB96321877CC400B9E617 /* Product.swift */; };
+		D29CB96921877D4E00B9E617 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29CB96821877D4E00B9E617 /* ProductCell.swift */; };
+		D29CB96D218780E200B9E617 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29CB96C218780E200B9E617 /* AlertService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +49,33 @@
 		D29CB9242187739B00B9E617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D29CB9272187739B00B9E617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D29CB9292187739B00B9E617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29CB9312187789800B9E617 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		D29CB9322187789800B9E617 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		D29CB9332187789800B9E617 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		D29CB9342187789800B9E617 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		D29CB9352187789800B9E617 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		D29CB9362187789800B9E617 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		D29CB9372187789800B9E617 /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
+		D29CB9382187789900B9E617 /* Icon-App-72x72@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@1x.png"; sourceTree = "<group>"; };
+		D29CB9392187789900B9E617 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		D29CB93A2187789900B9E617 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
+		D29CB93B2187789900B9E617 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		D29CB93C2187789900B9E617 /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
+		D29CB93D2187789900B9E617 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		D29CB93E2187789900B9E617 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		D29CB93F2187789900B9E617 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		D29CB9402187789900B9E617 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		D29CB9412187789900B9E617 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		D29CB9422187789900B9E617 /* Icon-App-72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@2x.png"; sourceTree = "<group>"; };
+		D29CB9432187789A00B9E617 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		D29CB9442187789A00B9E617 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		D29CB9452187789A00B9E617 /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		D29CB9462187789A00B9E617 /* Icon-App-57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@2x.png"; sourceTree = "<group>"; };
+		D29CB9472187789A00B9E617 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		D29CB95F21877C2200B9E617 /* hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hat.png; sourceTree = "<group>"; };
+		D29CB96321877CC400B9E617 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D29CB96821877D4E00B9E617 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		D29CB96C218780E200B9E617 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +108,89 @@
 		D29CB91C2187739A00B9E617 /* PushNotification_Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				D29CB91D2187739A00B9E617 /* AppDelegate.swift */,
-				D29CB91F2187739A00B9E617 /* ViewController.swift */,
+				D29CB96A218780C900B9E617 /* Service */,
+				D29CB96521877D0600B9E617 /* View */,
+				D29CB96221877CB100B9E617 /* Controller */,
+				D29CB96121877CAB00B9E617 /* Model */,
+				D29CB92F2187787C00B9E617 /* AppResources */,
 				D29CB9212187739A00B9E617 /* Main.storyboard */,
 				D29CB9242187739B00B9E617 /* Assets.xcassets */,
 				D29CB9262187739B00B9E617 /* LaunchScreen.storyboard */,
 				D29CB9292187739B00B9E617 /* Info.plist */,
 			);
 			path = PushNotification_Firebase;
+			sourceTree = "<group>";
+		};
+		D29CB92F2187787C00B9E617 /* AppResources */ = {
+			isa = PBXGroup;
+			children = (
+				D29CB95F21877C2200B9E617 /* hat.png */,
+				D29CB9302187788900B9E617 /* App icon */,
+			);
+			path = AppResources;
+			sourceTree = "<group>";
+		};
+		D29CB9302187788900B9E617 /* App icon */ = {
+			isa = PBXGroup;
+			children = (
+				D29CB9312187789800B9E617 /* Icon-App-20x20@1x.png */,
+				D29CB9332187789800B9E617 /* Icon-App-20x20@2x.png */,
+				D29CB9362187789800B9E617 /* Icon-App-20x20@3x.png */,
+				D29CB93F2187789900B9E617 /* Icon-App-29x29@1x.png */,
+				D29CB9472187789A00B9E617 /* Icon-App-29x29@2x.png */,
+				D29CB9412187789900B9E617 /* Icon-App-29x29@3x.png */,
+				D29CB93B2187789900B9E617 /* Icon-App-40x40@1x.png */,
+				D29CB93D2187789900B9E617 /* Icon-App-40x40@2x.png */,
+				D29CB9322187789800B9E617 /* Icon-App-40x40@3x.png */,
+				D29CB9452187789A00B9E617 /* Icon-App-57x57@1x.png */,
+				D29CB9462187789A00B9E617 /* Icon-App-57x57@2x.png */,
+				D29CB9392187789900B9E617 /* Icon-App-60x60@1x.png */,
+				D29CB9402187789900B9E617 /* Icon-App-60x60@2x.png */,
+				D29CB9432187789A00B9E617 /* Icon-App-60x60@3x.png */,
+				D29CB9382187789900B9E617 /* Icon-App-72x72@1x.png */,
+				D29CB9422187789900B9E617 /* Icon-App-72x72@2x.png */,
+				D29CB93E2187789900B9E617 /* Icon-App-76x76@1x.png */,
+				D29CB9342187789800B9E617 /* Icon-App-76x76@2x.png */,
+				D29CB9352187789800B9E617 /* Icon-App-76x76@3x.png */,
+				D29CB9442187789A00B9E617 /* Icon-App-83.5x83.5@2x.png */,
+				D29CB93C2187789900B9E617 /* Icon-Small-50x50@1x.png */,
+				D29CB9372187789800B9E617 /* Icon-Small-50x50@2x.png */,
+				D29CB93A2187789900B9E617 /* ItunesArtwork@2x.png */,
+			);
+			path = "App icon";
+			sourceTree = "<group>";
+		};
+		D29CB96121877CAB00B9E617 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D29CB96321877CC400B9E617 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D29CB96221877CB100B9E617 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D29CB91D2187739A00B9E617 /* AppDelegate.swift */,
+				D29CB91F2187739A00B9E617 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D29CB96521877D0600B9E617 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D29CB96821877D4E00B9E617 /* ProductCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D29CB96A218780C900B9E617 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D29CB96C218780E200B9E617 /* AlertService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +251,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D29CB95B2187789A00B9E617 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				D29CB9512187789A00B9E617 /* ItunesArtwork@2x.png in Resources */,
+				D29CB9492187789A00B9E617 /* Icon-App-40x40@3x.png in Resources */,
+				D29CB94C2187789A00B9E617 /* Icon-App-76x76@3x.png in Resources */,
 				D29CB9282187739B00B9E617 /* LaunchScreen.storyboard in Resources */,
+				D29CB95C2187789A00B9E617 /* Icon-App-57x57@1x.png in Resources */,
+				D29CB94A2187789A00B9E617 /* Icon-App-20x20@2x.png in Resources */,
+				D29CB95A2187789A00B9E617 /* Icon-App-60x60@3x.png in Resources */,
+				D29CB95E2187789A00B9E617 /* Icon-App-29x29@2x.png in Resources */,
+				D29CB9582187789A00B9E617 /* Icon-App-29x29@3x.png in Resources */,
+				D29CB94B2187789A00B9E617 /* Icon-App-76x76@2x.png in Resources */,
+				D29CB9542187789A00B9E617 /* Icon-App-40x40@2x.png in Resources */,
+				D29CB9552187789A00B9E617 /* Icon-App-76x76@1x.png in Resources */,
+				D29CB9572187789A00B9E617 /* Icon-App-60x60@2x.png in Resources */,
+				D29CB94D2187789A00B9E617 /* Icon-App-20x20@3x.png in Resources */,
+				D29CB96021877C2200B9E617 /* hat.png in Resources */,
+				D29CB94E2187789A00B9E617 /* Icon-Small-50x50@2x.png in Resources */,
+				D29CB9482187789A00B9E617 /* Icon-App-20x20@1x.png in Resources */,
+				D29CB9592187789A00B9E617 /* Icon-App-72x72@2x.png in Resources */,
+				D29CB95D2187789A00B9E617 /* Icon-App-57x57@2x.png in Resources */,
+				D29CB9532187789A00B9E617 /* Icon-Small-50x50@1x.png in Resources */,
+				D29CB9522187789A00B9E617 /* Icon-App-40x40@1x.png in Resources */,
 				D29CB9252187739B00B9E617 /* Assets.xcassets in Resources */,
+				D29CB9502187789A00B9E617 /* Icon-App-60x60@1x.png in Resources */,
+				D29CB94F2187789A00B9E617 /* Icon-App-72x72@1x.png in Resources */,
 				D29CB9232187739A00B9E617 /* Main.storyboard in Resources */,
+				D29CB9562187789A00B9E617 /* Icon-App-29x29@1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D29CB9202187739A00B9E617 /* ViewController.swift in Sources */,
+				D29CB96921877D4E00B9E617 /* ProductCell.swift in Sources */,
 				D29CB91E2187739A00B9E617 /* AppDelegate.swift in Sources */,
+				D29CB96421877CC400B9E617 /* Product.swift in Sources */,
+				D29CB96D218780E200B9E617 /* AlertService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5279N8R9WZ;
 				INFOPLIST_FILE = PushNotification_Firebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5279N8R9WZ;
 				INFOPLIST_FILE = PushNotification_Firebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
