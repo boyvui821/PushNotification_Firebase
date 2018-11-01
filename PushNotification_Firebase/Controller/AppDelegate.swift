@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+//import Messages
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +18,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //Request notification
+        FirebaseApp.configure()
+        UNService.shared.authorize()
         return true
+    }
+    
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //CHÚ Ý VỚI IOS 10 TRỞ LÊN KHI DÙNG NOTIFICATION PHẢI CÓ HÀM NÀY
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        print("didReceiveRemoteNotification")
+        // Print message ID.
+//        if let messageID = userInfo[gcmMessageIDKey] {
+//            print("Message ID: \(messageID)")
+//        }
+        
+        // Print full message.
+        print(userInfo)
+        completionHandler(UIBackgroundFetchResult.newData)
+
+    }
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        print("Did register for  ")
+        print(Messaging.messaging().fcmToken)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

@@ -34,4 +34,18 @@ class AlertService{
         alertController.addAction(actionPost)
         vc.present(alertController, animated: true, completion: nil)
     }
+    
+    static func SubcribeAlert(vc: UIViewController){
+        let alertController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+        let subcribe = UIAlertAction(title: "Subcribe", style: .default) { (alertAction) in
+            FIRMessagingService.shared.subcribe(to: .newProduct)
+        }
+        let unsubcribe = UIAlertAction(title: "UnSubcribe", style: .default) { (alertAction) in
+           FIRMessagingService.shared.unsubcribe(to: .newProduct)
+        }
+        
+        alertController.addAction(subcribe)
+        alertController.addAction(unsubcribe)
+        vc.present(alertController, animated: true, completion: nil)
+    }
 }

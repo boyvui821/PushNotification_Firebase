@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5808EFD58A6227FA8EFEC177 /* Pods_PushNotification_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBE081F976E7CCCEC41DBDB /* Pods_PushNotification_Firebase.framework */; };
+		D23C4A592187FD4F00AEA41E /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = D23C4A572187FD4E00AEA41E /* add.png */; };
+		D23C4A5B2187FDC100AEA41E /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = D23C4A5A2187FDC100AEA41E /* view.png */; };
+		D23C4A5D218805CE00AEA41E /* UNService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23C4A5C218805CE00AEA41E /* UNService.swift */; };
+		D23C4A6221883D3D00AEA41E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D23C4A6121883D3D00AEA41E /* GoogleService-Info.plist */; };
+		D23C4A6421883FED00AEA41E /* FIRDatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23C4A6321883FED00AEA41E /* FIRDatabaseService.swift */; };
+		D23C4A662188477100AEA41E /* ProductSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23C4A652188477100AEA41E /* ProductSnapshot.swift */; };
+		D25C2FA7218A1DEA00CB6DA7 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C2FA6218A1DEA00CB6DA7 /* NotificationService.swift */; };
+		D25C2FAB218A1DEB00CB6DA7 /* Notif Service Ext.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D25C2FA4218A1DEA00CB6DA7 /* Notif Service Ext.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D29CB91E2187739A00B9E617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29CB91D2187739A00B9E617 /* AppDelegate.swift */; };
 		D29CB9202187739A00B9E617 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29CB91F2187739A00B9E617 /* ViewController.swift */; };
 		D29CB9232187739A00B9E617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29CB9212187739A00B9E617 /* Main.storyboard */; };
@@ -39,9 +48,49 @@
 		D29CB96421877CC400B9E617 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29CB96321877CC400B9E617 /* Product.swift */; };
 		D29CB96921877D4E00B9E617 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29CB96821877D4E00B9E617 /* ProductCell.swift */; };
 		D29CB96D218780E200B9E617 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29CB96C218780E200B9E617 /* AlertService.swift */; };
+		D2D9CF94218A97BC009ACF3D /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9CF93218A97BC009ACF3D /* DownloadService.swift */; };
+		D2D9CF97218AA284009ACF3D /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9CF93218A97BC009ACF3D /* DownloadService.swift */; };
+		D2FFE7E12189632800263374 /* FIRMessagingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FFE7E02189632800263374 /* FIRMessagingService.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D25C2FA9218A1DEB00CB6DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D29CB9122187739A00B9E617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D25C2FA3218A1DEA00CB6DA7;
+			remoteInfo = "Notif Service Ext";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D25C2F9F218A15C200CB6DA7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D25C2FAB218A1DEB00CB6DA7 /* Notif Service Ext.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2BBE081F976E7CCCEC41DBDB /* Pods_PushNotification_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotification_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6794694F65904353BE5B44 /* Pods-PushNotification_Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotification_Firebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotification_Firebase/Pods-PushNotification_Firebase.debug.xcconfig"; sourceTree = "<group>"; };
+		BAC65A2994AF533264BB8BBD /* Pods-PushNotification_Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotification_Firebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotification_Firebase/Pods-PushNotification_Firebase.release.xcconfig"; sourceTree = "<group>"; };
+		D23C4A572187FD4E00AEA41E /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		D23C4A5A2187FDC100AEA41E /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view.png; sourceTree = "<group>"; };
+		D23C4A5C218805CE00AEA41E /* UNService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNService.swift; sourceTree = "<group>"; };
+		D23C4A602188189100AEA41E /* PushNotification_Firebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushNotification_Firebase.entitlements; sourceTree = "<group>"; };
+		D23C4A6121883D3D00AEA41E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D23C4A6321883FED00AEA41E /* FIRDatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRDatabaseService.swift; sourceTree = "<group>"; };
+		D23C4A652188477100AEA41E /* ProductSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSnapshot.swift; sourceTree = "<group>"; };
+		D25C2FA4218A1DEA00CB6DA7 /* Notif Service Ext.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Notif Service Ext.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25C2FA6218A1DEA00CB6DA7 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		D25C2FA8218A1DEB00CB6DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D29CB91A2187739A00B9E617 /* PushNotification_Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotification_Firebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D29CB91D2187739A00B9E617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D29CB91F2187739A00B9E617 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,24 +125,63 @@
 		D29CB96321877CC400B9E617 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		D29CB96821877D4E00B9E617 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		D29CB96C218780E200B9E617 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		D2D9CF93218A97BC009ACF3D /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
+		D2FFE7E02189632800263374 /* FIRMessagingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRMessagingService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D29CB9172187739A00B9E617 /* Frameworks */ = {
+		D25C2FA1218A1DEA00CB6DA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D29CB9172187739A00B9E617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5808EFD58A6227FA8EFEC177 /* Pods_PushNotification_Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4151FE04DAF20BB74B58FF99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B6794694F65904353BE5B44 /* Pods-PushNotification_Firebase.debug.xcconfig */,
+				BAC65A2994AF533264BB8BBD /* Pods-PushNotification_Firebase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61641C41A4DDEBED18CC0041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE081F976E7CCCEC41DBDB /* Pods_PushNotification_Firebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D25C2FA5218A1DEA00CB6DA7 /* Notif Service Ext */ = {
+			isa = PBXGroup;
+			children = (
+				D25C2FA6218A1DEA00CB6DA7 /* NotificationService.swift */,
+				D25C2FA8218A1DEB00CB6DA7 /* Info.plist */,
+			);
+			path = "Notif Service Ext";
+			sourceTree = "<group>";
+		};
 		D29CB9112187739A00B9E617 = {
 			isa = PBXGroup;
 			children = (
 				D29CB91C2187739A00B9E617 /* PushNotification_Firebase */,
+				D25C2FA5218A1DEA00CB6DA7 /* Notif Service Ext */,
 				D29CB91B2187739A00B9E617 /* Products */,
+				4151FE04DAF20BB74B58FF99 /* Pods */,
+				61641C41A4DDEBED18CC0041 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				D29CB91A2187739A00B9E617 /* PushNotification_Firebase.app */,
+				D25C2FA4218A1DEA00CB6DA7 /* Notif Service Ext.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +197,7 @@
 		D29CB91C2187739A00B9E617 /* PushNotification_Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				D23C4A602188189100AEA41E /* PushNotification_Firebase.entitlements */,
 				D29CB96A218780C900B9E617 /* Service */,
 				D29CB96521877D0600B9E617 /* View */,
 				D29CB96221877CB100B9E617 /* Controller */,
@@ -117,6 +207,7 @@
 				D29CB9242187739B00B9E617 /* Assets.xcassets */,
 				D29CB9262187739B00B9E617 /* LaunchScreen.storyboard */,
 				D29CB9292187739B00B9E617 /* Info.plist */,
+				D23C4A6121883D3D00AEA41E /* GoogleService-Info.plist */,
 			);
 			path = PushNotification_Firebase;
 			sourceTree = "<group>";
@@ -124,6 +215,8 @@
 		D29CB92F2187787C00B9E617 /* AppResources */ = {
 			isa = PBXGroup;
 			children = (
+				D23C4A5A2187FDC100AEA41E /* view.png */,
+				D23C4A572187FD4E00AEA41E /* add.png */,
 				D29CB95F21877C2200B9E617 /* hat.png */,
 				D29CB9302187788900B9E617 /* App icon */,
 			);
@@ -164,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				D29CB96321877CC400B9E617 /* Product.swift */,
+				D23C4A652188477100AEA41E /* ProductSnapshot.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +283,10 @@
 			isa = PBXGroup;
 			children = (
 				D29CB96C218780E200B9E617 /* AlertService.swift */,
+				D23C4A5C218805CE00AEA41E /* UNService.swift */,
+				D23C4A6321883FED00AEA41E /* FIRDatabaseService.swift */,
+				D2FFE7E02189632800263374 /* FIRMessagingService.swift */,
+				D2D9CF93218A97BC009ACF3D /* DownloadService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -196,17 +294,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D29CB9192187739A00B9E617 /* PushNotification_Firebase */ = {
+		D25C2FA3218A1DEA00CB6DA7 /* Notif Service Ext */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D29CB92C2187739B00B9E617 /* Build configuration list for PBXNativeTarget "PushNotification_Firebase" */;
+			buildConfigurationList = D25C2FAC218A1DEB00CB6DA7 /* Build configuration list for PBXNativeTarget "Notif Service Ext" */;
 			buildPhases = (
-				D29CB9162187739A00B9E617 /* Sources */,
-				D29CB9172187739A00B9E617 /* Frameworks */,
-				D29CB9182187739A00B9E617 /* Resources */,
+				D25C2FA0218A1DEA00CB6DA7 /* Sources */,
+				D25C2FA1218A1DEA00CB6DA7 /* Frameworks */,
+				D25C2FA2218A1DEA00CB6DA7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "Notif Service Ext";
+			productName = "Notif Service Ext";
+			productReference = D25C2FA4218A1DEA00CB6DA7 /* Notif Service Ext.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D29CB9192187739A00B9E617 /* PushNotification_Firebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29CB92C2187739B00B9E617 /* Build configuration list for PBXNativeTarget "PushNotification_Firebase" */;
+			buildPhases = (
+				CD072BA7C61218F40AA90585 /* [CP] Check Pods Manifest.lock */,
+				D29CB9162187739A00B9E617 /* Sources */,
+				D29CB9172187739A00B9E617 /* Frameworks */,
+				D29CB9182187739A00B9E617 /* Resources */,
+				AE9752BCAEE7125C5416DADA /* [CP] Embed Pods Frameworks */,
+				D25C2F9F218A15C200CB6DA7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D25C2FAA218A1DEB00CB6DA7 /* PBXTargetDependency */,
 			);
 			name = PushNotification_Firebase;
 			productName = PushNotification_Firebase;
@@ -223,8 +342,19 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = OneSignal;
 				TargetAttributes = {
+					D25C2FA3218A1DEA00CB6DA7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 					D29CB9192187739A00B9E617 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -242,17 +372,27 @@
 			projectRoot = "";
 			targets = (
 				D29CB9192187739A00B9E617 /* PushNotification_Firebase */,
+				D25C2FA3218A1DEA00CB6DA7 /* Notif Service Ext */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D25C2FA2218A1DEA00CB6DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D29CB9182187739A00B9E617 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D29CB95B2187789A00B9E617 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				D23C4A5B2187FDC100AEA41E /* view.png in Resources */,
 				D29CB9512187789A00B9E617 /* ItunesArtwork@2x.png in Resources */,
+				D23C4A592187FD4F00AEA41E /* add.png in Resources */,
 				D29CB9492187789A00B9E617 /* Icon-App-40x40@3x.png in Resources */,
 				D29CB94C2187789A00B9E617 /* Icon-App-76x76@3x.png in Resources */,
 				D29CB9282187739B00B9E617 /* LaunchScreen.storyboard in Resources */,
@@ -266,6 +406,7 @@
 				D29CB9552187789A00B9E617 /* Icon-App-76x76@1x.png in Resources */,
 				D29CB9572187789A00B9E617 /* Icon-App-60x60@2x.png in Resources */,
 				D29CB94D2187789A00B9E617 /* Icon-App-20x20@3x.png in Resources */,
+				D23C4A6221883D3D00AEA41E /* GoogleService-Info.plist in Resources */,
 				D29CB96021877C2200B9E617 /* hat.png in Resources */,
 				D29CB94E2187789A00B9E617 /* Icon-Small-50x50@2x.png in Resources */,
 				D29CB9482187789A00B9E617 /* Icon-App-20x20@1x.png in Resources */,
@@ -283,12 +424,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AE9752BCAEE7125C5416DADA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PushNotification_Firebase/Pods-PushNotification_Firebase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotification_Firebase/Pods-PushNotification_Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD072BA7C61218F40AA90585 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PushNotification_Firebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		D25C2FA0218A1DEA00CB6DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25C2FA7218A1DEA00CB6DA7 /* NotificationService.swift in Sources */,
+				D2D9CF97218AA284009ACF3D /* DownloadService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D29CB9162187739A00B9E617 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23C4A5D218805CE00AEA41E /* UNService.swift in Sources */,
+				D23C4A662188477100AEA41E /* ProductSnapshot.swift in Sources */,
+				D23C4A6421883FED00AEA41E /* FIRDatabaseService.swift in Sources */,
 				D29CB9202187739A00B9E617 /* ViewController.swift in Sources */,
+				D2FFE7E12189632800263374 /* FIRMessagingService.swift in Sources */,
+				D2D9CF94218A97BC009ACF3D /* DownloadService.swift in Sources */,
 				D29CB96921877D4E00B9E617 /* ProductCell.swift in Sources */,
 				D29CB91E2187739A00B9E617 /* AppDelegate.swift in Sources */,
 				D29CB96421877CC400B9E617 /* Product.swift in Sources */,
@@ -297,6 +497,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D25C2FAA218A1DEB00CB6DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D25C2FA3218A1DEA00CB6DA7 /* Notif Service Ext */;
+			targetProxy = D25C2FA9218A1DEB00CB6DA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D29CB9212187739A00B9E617 /* Main.storyboard */ = {
@@ -318,6 +526,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D25C2FAD218A1DEB00CB6DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5279N8R9WZ;
+				INFOPLIST_FILE = "Notif Service Ext/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NHTSOFT.PushNotification-Firebase.Notif-Service-Ext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D25C2FAE218A1DEB00CB6DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5279N8R9WZ;
+				INFOPLIST_FILE = "Notif Service Ext/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NHTSOFT.PushNotification-Firebase.Notif-Service-Ext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D29CB92A2187739B00B9E617 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -436,11 +682,15 @@
 		};
 		D29CB92D2187739B00B9E617 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6794694F65904353BE5B44 /* Pods-PushNotification_Firebase.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PushNotification_Firebase/PushNotification_Firebase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5279N8R9WZ;
 				INFOPLIST_FILE = PushNotification_Firebase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +704,15 @@
 		};
 		D29CB92E2187739B00B9E617 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC65A2994AF533264BB8BBD /* Pods-PushNotification_Firebase.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PushNotification_Firebase/PushNotification_Firebase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5279N8R9WZ;
 				INFOPLIST_FILE = PushNotification_Firebase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +727,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D25C2FAC218A1DEB00CB6DA7 /* Build configuration list for PBXNativeTarget "Notif Service Ext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25C2FAD218A1DEB00CB6DA7 /* Debug */,
+				D25C2FAE218A1DEB00CB6DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D29CB9152187739A00B9E617 /* Build configuration list for PBXProject "PushNotification_Firebase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
